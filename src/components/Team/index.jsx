@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { useState } from "react";
 import Title from "../Title";
-import { MdCardMembership } from "react-icons/md";
 const data = [
   {
     id: 1,
