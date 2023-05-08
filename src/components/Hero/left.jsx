@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import {AiOutlineCar} from "react-icons/ai";
 // import { BikeDelivery } from "../Assets";
 
 const Left = () => {
@@ -9,10 +9,8 @@ const Left = () => {
       <div className="flex items-center gap-2 justify-center bg-sky-100 px-4 py-1 rounded-full">
         <p className="text-base text-sky-500 font-bold">Garage</p>
         <div className="w-8 h-8 rounded-full overflow-hidden bg-white drop-shadow-xl">
-          <img
-            src={"BikeDelivery"}
-            alt="delivery"
-            className="w-full h-full object-contain"
+          <AiOutlineCar
+            className="w-full h-full object-contain text-lg text-sky-600"
           />
         </div>
       </div>
