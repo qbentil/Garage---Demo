@@ -9,7 +9,7 @@ const Pricing = () => {
   return (
     <section className="w-full my-3 px-6 py-1">
       <div className="w-full flex items-center justify-center flex-col gap-y-3">
-        <Title title="Pricing Table" center />
+        <Title title="Pricing Table" />
         <p className="font-light text-gray-500 lg:mb-16 sm:text-xl ">
           Pricing of our services
         </p>
@@ -18,7 +18,7 @@ const Pricing = () => {
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border border-gray-100 shadow  xl:p-8  ">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 rounded-lg border border-gray-100 shadow  xl:p-8  ">
               <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
               <p className="font-light text-gray-500 sm:text-lg ">
                 Best option for personal use & for your next project.

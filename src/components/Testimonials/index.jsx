@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { useState } from "react";
 import Title from "../Title";
+import { motion } from "framer-motion";
 const data = [
   {
     id: 1,
@@ -33,7 +34,12 @@ const data = [
 const Testimony = ({ data }) => {
   const { name, title, org, desc, imgSrc } = data;
   return (
-    <figure className="max-w-screen-md mx-auto">
+    <motion.figure
+      initial={{ opacity: 0, x: 200 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 200 }}
+      className="max-w-screen-md mx-auto"
+    >
       <svg
         className="h-12 mx-auto mb-3 text-gray-400"
         viewBox="0 0 24 27"
@@ -61,7 +67,7 @@ const Testimony = ({ data }) => {
           </div>
         </div>
       </figcaption>
-    </figure>
+    </motion.figure>
   );
 };
 const Testimonials = () => {
@@ -69,7 +75,7 @@ const Testimonials = () => {
   return (
     <section className="w-full my-3 px-6 py-1">
       <div className="w-full flex items-center justify-center">
-        <Title title="Testimonials"  />
+        <Title title="Testimonials" />
       </div>
       {/* content */}
       <section className="">
