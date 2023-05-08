@@ -1,4 +1,11 @@
-import { Footer, Hero, Navbar, Team, Testimonials } from "./components";
+import {
+  Footer,
+  Hero,
+  Navbar,
+  Pricing,
+  Team,
+  Testimonials,
+} from "./components";
 
 function App() {
   return (
@@ -7,8 +14,8 @@ function App() {
       <main className={`w-screen h-auto overflow-hidden`}>
         <Hero />
         <Team />
+        <Pricing />
         <Testimonials />
-
         <Footer />
       </main>
     </div>
