@@ -1,13 +1,15 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import { useState } from "react";
+
 import Title from "../Title";
+import { useState } from "react";
+
 const data = [
   {
     id: 1,
-    name: "Shadrack Bentil",
+    name: "Shadrack Green",
     role: "CEO & Founder",
     desc: "Guarage is the best place to find a car to buy or rent. I have been using it for a while now and I have never been disappointed.",
-    imgSrc: "https://codersquiz.netlify.app/img/bentil.jpeg",
+    imgSrc: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
   },
   {
     id: 2,
