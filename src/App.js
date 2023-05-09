@@ -1,10 +1,11 @@
 import {
+  Contact,
   Footer,
   Hero,
   Navbar,
   Pricing,
   Team,
-  Testimonials,
+  Testimonials
 } from "./components";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Team />
         <Pricing />
         <Testimonials />
+        <Contact />
         <Footer />
       </main>
     </div>
